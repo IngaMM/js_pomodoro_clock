@@ -1,0 +1,106 @@
+body {
+  background-color: #aa3939;
+  color: #ffaaaa;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+}
+
+#clock {
+  width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px 50px 80px 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
+  margin-top: 150px;
+}
+
+#titleSession {
+  grid-column: 2/3;
+  font-size: 30px;
+  padding-top: 3px;
+}
+
+#titleBreak {
+  grid-column: 5/6;
+  font-size: 30px;
+  padding-top: 3px;
+}
+
+.titleWithBorder {
+  border: solid;
+  font-weight: bold;
+}
+
+#setTimeSession {
+  grid-column: 1 / 4;
+  font-size: 25px;
+}
+
+#setTimeBreak {
+  grid-column: 4 / 7;
+  font-size: 25px;
+}
+
+#decreaseTimeSession {
+  grid-column: 1 / 2;
+  font-size: 25px;
+}
+
+#timeSessionContainer {
+  grid-column: 2 / 3;
+  font-size: 25px;
+  align-self: center;
+}
+
+#increaseTimeSession {
+  grid-column: 3 / 4;
+  font-size: 25px;
+}
+
+#decreaseTimeBreak {
+  grid-column: 4 / 5;
+  font-size: 25px;
+}
+
+#timeBreakContainer {
+  grid-column: 5 / 6;
+  font-size: 25px;
+  align-self: center;
+}
+
+#increaseTimeBreak {
+  grid-column: 6 / 7;
+}
+
+#display {
+  grid-column: 1 / 7;
+  font-size: 50px;
+  align-self: center;
+}
+
+.buttons {
+  grid-column: 1 / 7;
+}
+
+button {
+  border: solid;
+  font-size: 20px;
+  color: 550000;
+  background-color: #d46a6a;
+}
+
+button:active {
+  outline: 0;
+  border-style: solid;
+  border-width: 5px;
+}
+
+button:focus {
+  outline: 0;
+}
